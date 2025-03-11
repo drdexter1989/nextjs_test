@@ -1,0 +1,8 @@
+@reference '../../app/globals.css';
+
+.link{
+    @apply hover:border-b-1 hover:border-dotted hover:text-blue-400 mx-2 transition-all;
+}
+.link-active{
+    @apply text-sky-200 border-dotted border-b-1;
+}
